@@ -1,5 +1,6 @@
 extends Node2D
 
+#incomplete
 
 #dino types: murdersaurus, tractorsaurus, giraffeosaurus, trino, eggosaurus
 #trino vars
@@ -97,6 +98,8 @@ func _predatorCheckEggo():
 		_eggoStampedeCheck()
 	else:
 		pass
+
+
 func _eggoFenceSmash(fenceElectric):
 #	this smashes the fence if possible (eggo)
 #	input is bool, is fence electric?
